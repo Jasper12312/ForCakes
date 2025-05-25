@@ -1,0 +1,56 @@
+
+body {
+    background-color: #f0f2f5;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh3eGxpaXllMnhoN2w2MjEwdXB6OHRwNmtkbW1hZTRhNjRoOG9pcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26ufcYAkp8e66vanu/giphy.gif');
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.image-div{
+    opacity: 0;
+      animation: fadeInOut 3s forwards;
+      animation-delay: 1s;
+      
+}
+@keyframes fadeInOut {
+      0%   { opacity: 0; }
+      20%  { opacity: 1; }
+      80%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .Message1 {
+      display: none;
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+
+    .Message1.show {
+      display: block;
+      opacity: 1;
+    }
+
+
+.Message1 {
+    height: 500px;
+    width: 500px;
+    background-color: lightpink;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sample-image{
+    height: 50px;
+    width: 50px;
+}
+
+.YtButton{
+font-size: 60px;
+vertical-align: bottom;
+text-decoration: none;
+color: red;
+}

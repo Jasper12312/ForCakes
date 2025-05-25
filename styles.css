@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f2f5;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh3eGxpaXllMnhoN2w2MjEwdXB6OHRwNmtkbW1hZTRhNjRoOG9pcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26ufcYAkp8e66vanu/giphy.gif');
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.div1{
+    height: 350px;
+    width: 300px;
+    background-color: lightpink;
+    padding: 40px;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+
+.div1 h1{
+    margin-bottom: 0;
+}
+
+.div1 p{
+    margin-top: 0;
+}
+
+.div1 img{
+    height: 180px;
+    border: 5px solid pink;
+    border-radius: 15%;
+    margin-bottom: 0px;
+}
+
+.div1 a{
+    padding: 30px;
+    font-size: 50px;
+    height: 20px;
+    margin-top: 0;
+    text-decoration: none;
+    color: red;
+    
+}

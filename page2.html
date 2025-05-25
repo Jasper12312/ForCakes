@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Page2</title>
+        <link rel="stylesheet" href="page2.css">
+        
+    </head>
+
+    <body>
+        <div class="image-div" id="imageDiv">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2twYzZxenVmNjMxanR6ODhycWxxZndwaTRjMWN3em1vZWZtOWN5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2R0cE5EqO3QHiCoU/giphy.gif" alt="">
+        </div>
+
+
+        <div class="Message1" id="Message-1">
+            <h1>Sample Text</h1>
+            <div class="allmessage">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quo officia autem repudiandae non, perspiciatis, eaque suscipit praesentium, dicta quaerat illo tempora commodi accusamus qui omnis. Facere ipsa maxime possimus.</p>
+                
+                <img class="sample-image" 
+                src="https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00021.jpg">
+                
+                <br><a class="YtButton" href="https://youtu.be/zTGPdM9ve9c?si=6JfhP6dgYpcKoJ24">
+                    ◉</a>
+            </div>
+        </div>
+
+        <script>
+    const totalDelay = 3 + 2; // delay + animation duration in seconds
+
+    setTimeout(() => {
+      // Hide the image div completely
+      document.getElementById("imageDiv").style.display = "none";
+      // Show the next div with fade-in effect
+      document.getElementById("Message-1").classList.add("show");
+    }, totalDelay * 1000);
+  </script>
+    </body>
+
+    
+</html>
